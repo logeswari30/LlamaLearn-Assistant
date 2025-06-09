@@ -1,0 +1,53 @@
+# Core Streamlit Framework
+streamlit>=1.28.0
+
+# AI/ML and API Integration
+groq>=0.4.1
+langchain-community>=0.0.20
+
+# Document Processing
+PyPDF2>=3.0.1
+pypdf>=3.17.0
+
+# Data Manipulation and Analysis
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Data Visualization
+plotly>=5.17.0
+
+# Date and Time Utilities
+python-dateutil>=2.8.2
+
+# JSON Handling (built-in, but explicit for clarity)
+# json - built-in Python module
+
+# File System Operations (built-in)
+# os - built-in Python module
+
+# Random Number Generation (built-in)
+# random - built-in Python module
+
+# HTTP Requests (if needed for future API calls)
+requests>=2.31.0
+
+# Additional Streamlit Components (optional but recommended)
+streamlit-option-menu>=0.3.6
+
+# For better error handling and logging
+loguru>=0.7.2
+
+# For environment variable management
+python-dotenv>=1.0.0
+
+# Additional data processing utilities
+openpyxl>=3.1.2  # For Excel file support (future enhancement)
+python-magic>=0.4.27  # For file type detection (optional)
+
+# Development and Testing (optional)
+pytest>=7.4.0
+black>=23.0.0
+flake8>=6.0.0
+
+# Security enhancements (optional)
+cryptography>=41.0.0
